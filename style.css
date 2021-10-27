@@ -26,3 +26,24 @@ img {
   padding-bottom: 5px;
   padding-left: 8px;
 }
+
+/*This is modifying the btn-primary colors but you could create your own .btn-something class as well*/
+.btn-outline-primary {
+    color: red;
+    background-color: white;
+    border-color: grey; /*set the color you want here*/
+}
+.btn-outline-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: red;
+    background-color: black;
+    border-color: grey; /*set the color you want here*/
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: white;
+    background-color: #212529;
+      border-color: grey;
+}
+.nav-link{
+  color:black;
+  text-decoration-style: double;
+}
